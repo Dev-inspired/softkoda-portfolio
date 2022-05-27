@@ -110,3 +110,27 @@ body {
 .main .main-content ul li a img {
   width: 20px;
 }
+
+.work {
+  margin: 8rem  2rem 0 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.work h1 {
+font-family: Crete Round;
+font-size: 40px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+  
+}
+
+.work .layout img{
+height: 237px;
+width: 327px;
+left: 24px;
+top: 0px;
+border-radius: 0px;
+
+} 
