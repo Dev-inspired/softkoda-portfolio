@@ -1,16 +1,16 @@
 * {
   margin: 0;
-  padding: 0; 
-  box-sizing: border-box; 
+  padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
 }
 
 body {
   width: 375px;
-  height: 100vh; 
+  height: 100vh;
   overflow-x: hidden;
   background: #1c1a19;
-} 
+}
 
 .header {
   position: fixed;
@@ -20,7 +20,7 @@ body {
   display: flex;
   background: #3e3c3c;
   align-items: center;
-  justify-content:space-between;  
+  justify-content: space-between;
   padding: 2rem 9%;
 }
 
