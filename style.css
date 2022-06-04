@@ -161,10 +161,16 @@ body {
   margin: 0 0 1rem 0;
 }
 
+.grid .card .connect .btn-active:hover {
+  background: #fff;
+  color: #ff6b00;
+}
+
 .layout .layout-row #btn .btn-active:hover {
   background-color: #fff;
   color: #ff6b00;
 }
+
 .layout .layout-row ul {
   display: flex;
   gap: 1rem;
@@ -204,11 +210,6 @@ body {
   color: #fff;
   background-color: #ff6b00;
   padding: 15px 116.1px;
-}
-
-.grid .card .connect .btn-active:hover {
-   background: #fff;
-   color: #ff6b00;
 }
 
 .about .about-col .wto ul li a {
