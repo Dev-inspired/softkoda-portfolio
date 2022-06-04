@@ -78,6 +78,16 @@ body {
   line-height: 64px;
 }
 
+.layout h2 {
+  padding: 2rem 2rem 0 0;
+  font-family: 'crete round', poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #1c1a19;
+  font-family: ;
+}
+
 .main .main-content h2 {
   font-size: 24px;
   font-weight: 700;
@@ -125,15 +135,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.layout h2 {
-  padding: 2rem 2rem 0 0;
-  font-family: 'Crete Round', 'poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  color: #1c1a19;
-}
-
 .layout img {
   padding-top: 1.5rem;
 }
@@ -177,6 +178,17 @@ body {
 
 .layout .layout-row #btn {
   padding-top: 2rem;
+}
+
+.grid .card .connect a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 15px 123px;
 }
 
 .layout .layout-row #btn a {
@@ -247,7 +259,7 @@ body {
 }
 
 .layout .layout-row .layout-col .text p {
-  font-family: 'Inter','Roboto';
+  font-family: 'Inter', 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -276,17 +288,6 @@ body {
   padding-top: 3rem;
 }
 
-.grid .card .connect a {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  background-color: #ff6b00;
-  padding: 15px 123px;
-}
-
 /* THE ABOUT SECTION */
 .about {
   background: #1c1a19;
@@ -301,7 +302,7 @@ body {
 
 .about .about-desc h2 {
   color: #fff;
-  font-family: 'Crete Round','poppins';
+  font-family: 'Crete Round', 'poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
