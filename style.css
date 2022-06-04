@@ -259,11 +259,11 @@ body {
     background: rgba(255, 255, 255, 0.24);
   }
 
- .grid .card #connect {
+ .grid .card .connect {
     padding-top:3rem;
  }
 
-.grid .card #connect a {
+.grid .card .connect a {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
@@ -323,7 +323,7 @@ body {
 }
 
 .about .about-col .outline .wto {
-   padding: 2rem 0 0 2rem;
+   padding: 2rem 0 0 3rem;
    justify-content: center;
    align-items: center;
 }
@@ -336,26 +336,28 @@ body {
    color: #ffffff;
 }
 
-.about .about-col .outline .wto dl dt img {
+.about .about-col .outline .wto .last h3 img {
    padding-right:1rem;
 }
 
-.about .about-col .outline .wto #last {
+.about .about-col .outline .wto .last {
    padding: 2rem 1rem 1.8rem 1rem; 
 }
 
-.about .about-col .outline .wto dl dt span {
+.about .about-col .outline .wto .last h3 span {
    color: #ffffff;
    font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
    font-size: 32px;
-   line-height: 44px 
+   line-height: 44px;
+   padding-right: 2rem;
 } 
 
 .about .about-col .wto ul {
    list-style: none;
-   display: block;
+   display: flex;
+   flex-direction: column;
    text-align: center;
 }
 
@@ -366,5 +368,5 @@ body {
    font-size: 22px;
    line-height: 43px;
    color: #ffffff;
-   padding-right: 5rem;
+   padding-right: 8rem;
 }  
