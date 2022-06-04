@@ -197,7 +197,7 @@ body {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   background-color: #ff6b00;
   padding: 15px 116.1px;
 }
@@ -301,7 +301,6 @@ body {
   color: #091e42;
   justify-content: center;
   padding-right: 15px;
-
 }
 
 .grid .card ul {
@@ -327,7 +326,7 @@ body {
   background-image: url(./images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   background-position: 210px 280px;
-  padding-top:70px;
+  padding-top: git70px;
 }
 
 .about .about-desc #connect-2 {
