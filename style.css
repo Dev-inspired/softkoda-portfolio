@@ -161,6 +161,10 @@ body {
   margin: 0 0 1rem 0;
 }
 
+.layout .layout-row #btn .btn-active:hover {
+  background-color: #fff;
+  color: #ff6b00;
+}
 .layout .layout-row ul {
   display: flex;
   gap: 1rem;
@@ -200,6 +204,11 @@ body {
   color: #fff;
   background-color: #ff6b00;
   padding: 15px 116.1px;
+}
+
+.grid .card .connect .btn-active:hover {
+   background: #fff;
+   color: #ff6b00;
 }
 
 .about .about-col .wto ul li a {
@@ -284,6 +293,11 @@ body {
   line-height: 24px;
 }
 
+.about .about-desc #connect-2 .btn-active:hover {
+  background-color: #fff;
+  color: #ff6b00;
+}
+
 .grid .card .card-text p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -325,7 +339,7 @@ body {
   height: auto;
   background-image: url(./images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
-  background-position: 210px 280px;
+  background-position: 210px 215px;
   padding-top: git70px;
 }
 
