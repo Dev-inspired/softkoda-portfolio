@@ -124,6 +124,10 @@ body {
   margin-left: 1.7rem;
 }
 
+.layout img {
+  padding-top: 1.5rem;
+}
+
 .main .main-content ul li a img {
   width: 20px;
 }
@@ -138,10 +142,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.layout img {
-  padding-top: 1.5rem;
-}
-
 .layout img ::after {
   content: "";
 }
@@ -151,7 +151,7 @@ body {
 }
 
 .layout .layout-row .layout-col .text h3 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -237,7 +237,7 @@ body {
 .grid .card {
   background: linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.75%),
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(./images/placeholder-1.png);
