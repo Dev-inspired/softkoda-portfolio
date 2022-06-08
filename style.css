@@ -429,7 +429,5 @@ padding: 8rem 1.5rem;
 
 }
 .form #form {
-  position: absolute;
-  top: 0;
-  
+margin: 2rem;
 }
