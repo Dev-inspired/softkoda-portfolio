@@ -199,7 +199,6 @@ body {
   color: #fff;
   border: 1px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
-
 }
 
 .grid .card .connect a {
@@ -404,20 +403,16 @@ body {
   flex-direction: column;
   text-align: center;
 }
-/* CONTACT PART */
 
+/* CONTACT PART */
 .form {
   background:#ffffff;
   width: 100%;
   height: auto;
 }
 
-.form-text {
-  
-}
-
 .form-text p {
-font-family: 'Inter';
+font-family: "Inter", sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
