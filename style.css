@@ -199,6 +199,7 @@ body {
   color: #fff;
   border: 1px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
+
 }
 
 .grid .card .connect a {
@@ -326,6 +327,7 @@ body {
 
 .grid .card ul li {
   list-style: none;
+  float: right;
 }
 
 .grid .card .connect {
@@ -401,4 +403,33 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+/* CONTACT PART */
+
+.form {
+  position: relative;
+  background: #e5e5e5;
+  width: 100%;
+  height: auto;
+}
+
+.form-text {
+  position: absolute;
+}
+
+.form-text p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #172b4d;
+padding: 8rem 1.5rem;
+
+}
+.form #form {
+  position: absolute;
+  top: 0;
+  
 }
