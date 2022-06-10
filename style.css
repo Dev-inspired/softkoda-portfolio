@@ -440,28 +440,19 @@ body {
   padding-top: 3rem;
 }
 
-#form {
-  padding-left: 1.5rem;
+#best {
+  padding-left: 1.3rem;
 }
 
-#form #label {
-  color: #979493;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-}
-
-#form input {
+#best input {
   border-top: none;
   border-left: none;
   border-right: none;
-  width: 20rem;
+  width: 18rem;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 24px;
   color: #979493;
   padding: 5px;
@@ -472,19 +463,21 @@ body {
   background: #fbf8f7;
 }
 
-.btn {
+#best .btn {
   background: #ff6b00;
   border: none;
   color: #fff;
-  margin: 2rem 8rem;
-  padding: 12px 3px;
+  margin: 2rem 6rem;
+  padding: 10px 10px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 17px;
+  padding: 12px;
+  line-height: 24px;
 }
 
-.btn:hover {
+#best .btn:hover {
   background: rgba(255, 255, 255, 0.24);
   color: #ff6b00;
   border: 2px solid #ff6b00;
