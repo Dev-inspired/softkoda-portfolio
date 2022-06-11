@@ -35,6 +35,10 @@ body {
   align-items: center;
 }
 
+.header h2 {
+  transform: rotate(45deg);
+}
+
 .header .nav-bar ul {
   display: flex;
   justify-content: center;
@@ -234,6 +238,8 @@ body {
   background: #ff6b00;
   color: #fff;
   padding: 1rem;
+  transform: translate(10px, 10px);
+
 }
 
 .grid {
